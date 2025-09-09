@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "w0/webwindow",
+  "version": "0.1.0",
+  "title": "WebWindow",
+  "category": "embed",
+  "icon": "media-code",
+  "description": "Bring any website into your page with style! Create seamless, app-like experiences that fit perfectly. No more clunky iframes—just smooth, responsive web embedding that actually works.",
+  "example": {
+    "attributes": {
+      "src": "https://demo.iconick.io/twombly/",
+      "scaleToFit": true
+    }
+  },
+  "attributes": {
+    "src": {
+      "type": "string",
+      "default": "https://demo.iconick.io/twombly/"
+    },
+    "scaleToFit": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "layout": true
+  },
+  "textdomain": "webwindow-block-wp",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
