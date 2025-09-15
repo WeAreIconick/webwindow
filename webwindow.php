@@ -2,11 +2,14 @@
 /**
  * Plugin Name:       WebWindow Block
  * Description:       Bring any website into your page with style! Create seamless, app-like experiences that fit perfectly. No more clunky iframes—just smooth, responsive web embedding that actually works.
- * Version:           0.1.0
- * Author:            w0 block authoring tool
- * License:           GPL-2.0-or-later
+ * Version:           1.0.0
+ * Requires at least: 6.0
+ * Requires PHP:      7.4
+ * Author:      	  iconick
+ * Author URI:        https://iconick.io
+ * License:           GPLv2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       webwindow-block-wp
+ * Text Domain:       webwindow-block
  *
  * @package Webwindow
  */
